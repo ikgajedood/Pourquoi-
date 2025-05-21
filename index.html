@@ -4,6 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Aleyna</title>
+  <style>
+    #compteur {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 20px 0;
+      color: #d6336c;
+    }
+  </style>
 </head>
 <body>
 
@@ -31,8 +39,35 @@
     <li>Regardez comme on serait beaux ensemble :</li>
   </ol>
 
+  <!-- Compteur jours et heures -->
+  <div id="compteur">Calcul en cours...</div>
+
   <br />
   <img src="file_000000001bc46246bc7ba6d28638c696.png" width="200" height="300" alt="Aleyna Photo 2" />
+
+  <script>
+    // Date de début (modifie ici la date réelle de votre début)
+    const dateDebut = new Date(2025, 2, 8, 17, 0, 0);
+
+    function updateCompteur() {
+      const maintenant = new Date();
+      let diff = maintenant - dateDebut; // différence en millisecondes
+
+      if (diff < 0) {
+        document.getElementById('compteur').textContent = "La date de début est dans le futur !";
+        return;
+      }
+
+      const jours = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const heures = Math.floor((diff / (1000 * 60 * 60)) % 24);
+
+      document.getElementById('compteur').textContent =
+        jours + " jours et " + heures + " heures passés ensemble";
+    }
+
+    setInterval(updateCompteur, 1000 * 60 * 5); // mise à jour toutes les 5 minutes
+    updateCompteur(); // mise à jour au chargement
+  </script>
 
 </body>
 </html>
