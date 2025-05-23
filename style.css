@@ -12,3 +12,9 @@ color: #FFA214;
 {
 font-family: Comic Sans MS;
 }
+
+body
+{
+background-image: url("neige.png");
+background-attachment: fixed; /* Le fond restera fixe */
+}
