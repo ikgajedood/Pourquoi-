@@ -5,7 +5,12 @@ color: fuchsia;
 
 .special
 {
-color: #FFA214;
+color: #eb14ff;
+border: 2px solid #eb14ff;
+  border-radius: 12px;
+  padding: 2px 6px;
+  display: inline-block;
+  background-color: #fad9e6;
 }
 
 body
@@ -20,6 +25,18 @@ background-attachment: fixed; /* Le fond restera fixe */
 }
 
 #compteur {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #d61056;
+  border: 2px solid #ff0059;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #fad9e6;
+}
+
+.titre_principal {
   font-size: 1.5em;
   font-weight: bold;
   margin: 20px 0;
