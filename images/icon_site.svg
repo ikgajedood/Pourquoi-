@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond plus foncé -->
+  <rect width="64" height="64" fill="#9b2240" rx="12" ry="12"></rect>
+
+  <!-- Lettre L en rose clair -->
+  <text x="35%" y="55%" font-family="Arial, sans-serif" font-size="40" fill="#ff4d6d" font-weight="bold" text-anchor="middle" dominant-baseline="middle">
+    L
+  </text>
+
+  <!-- Lettre A en blanc -->
+  <text x="65%" y="55%" font-family="Arial, sans-serif" font-size="40" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="middle" id="letterA">
+    A
+  </text>
+
+  <!-- Noeud papillon stylisé encore plus à gauche -->
+  <g transform="translate(40,18) scale(0.6)">
+    <!-- gauche du noeud -->
+    <polygon points="0,0 10,5 0,10" fill="#ff4d6d"></polygon>
+    <!-- droite du noeud -->
+    <polygon points="10,0 20,5 10,10" fill="#ff4d6d"></polygon>
+    <!-- centre du noeud -->
+    <rect x="8" y="3" width="4" height="4" fill="#d6336c" rx="1" ry="1"></rect>
+  </g>
+</svg>
