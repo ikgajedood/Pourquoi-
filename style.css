@@ -8,7 +8,7 @@ color: fuchsia;
 color: #FFA214;
 }
 
-.police
+body
 {
 font-family: Comic Sans MS;
 }
@@ -19,3 +19,14 @@ background-image: url("900w-TRWFt1z_Oz4.png");
 background-attachment: fixed; /* Le fond restera fixe */
 }
 
+#compteur {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #d61056;
+  border: 2px solid #ff0059;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #fad9e6;
+}
