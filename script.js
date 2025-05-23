@@ -1,7 +1,7 @@
 const bouton = document.getElementById('boutonanim');
 
 bouton.addEventListener('click', () => {
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 30; i++) {
     creerCoeur();
   }
 });
@@ -11,11 +11,11 @@ function creerCoeur() {
   coeur.classList.add('coeur');
   const posX = Math.random() * (window.innerWidth - 30);
   coeur.style.left = posX + 'px';
-  coeur.style.animationDelay = (Math.random() * 1) + 's';
+  coeur.style.animationDelay = (Math.random() * 3) + 's';
   document.body.appendChild(coeur);
   setTimeout(() => {
     coeur.remove();
-  }, 3000);
+  }, 30000);
 }
 
     // Date de début (modifie ici la date réelle de votre début)

@@ -68,8 +68,8 @@ background-attachment: fixed; /* Le fond restera fixe */
 .coeur {
   position: fixed;
   bottom: 0;
-  width: 24px;
-  height: 24px;
+  width: 35px;
+  height: 35px;
   background-color: #d6336c;
   clip-path: polygon(
     50% 15%, 61% 10%, 70% 10%, 80% 15%, 90% 25%,
@@ -78,7 +78,7 @@ background-attachment: fixed; /* Le fond restera fixe */
     39% 10%
   );
   opacity: 1;
-  animation: monterCoeur 2s forwards;
+  animation: monterCoeur 3s forwards;
   pointer-events: none;
 }
 
@@ -88,7 +88,7 @@ background-attachment: fixed; /* Le fond restera fixe */
     opacity: 1;
   }
   100% {
-    transform: translateY(-150vh) scale(1.5);
+    transform: translateY(-100vh) scale(10.5);
     opacity: 0;
   }
 }
