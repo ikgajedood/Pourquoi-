@@ -1,0 +1,36 @@
+body
+{
+font-family: Comic Sans MS;
+}
+
+body
+{
+background-image: url("images/leYd.png");
+background-attachment: fixed; /* Le fond restera fixe */
+}
+
+body {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #d3d3d3;
+}
+
+#afficherbouton {
+  display: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
