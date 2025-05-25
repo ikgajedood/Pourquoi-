@@ -92,3 +92,33 @@ background-attachment: fixed; /* Le fond restera fixe */
     opacity: 0;
   }
 }
+
+/* Écran d'entrée */
+#landing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+
+#muteBtn {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #000000;
+  border: 1px solid #d61056;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #d61056;
+}

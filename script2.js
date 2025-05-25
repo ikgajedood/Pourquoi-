@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.affichersnap = affichersnap;
   window.affichertiktok = affichertiktok;
 
-  const dateCible = new Date("2025-05-26T19:38:00").getTime();
+  const dateCible = new Date("2025-11-26T12:00:00").getTime();
   const countdownEl = document.getElementById("countdown");
   const texteSecret = document.getElementById("texteSecret");
 
