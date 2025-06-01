@@ -42,10 +42,28 @@ h5 {
   font-weight: bold;
 
 }
-#boutonsnap, #boutontiktok {
+
+#boutontiktok {
   padding: 12px 24px;
   font-size: 18px;
-  background-color: #d3d3d3;
+  background-image: url("logo/Tiktok.jpg");
+    background-size: cover;
+    background-position: center -25px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  font-family: Comic Sans MS, cursive, sans-serif
+}
+
+#boutonsnap{
+  padding: 12px 24px;
+  font-size: 18px;
+  background-image: url("logo/Snapchat.png");
+    background-size: cover;
   color: rgb(0, 0, 0);
   border: none;
   border-radius: 30px;
