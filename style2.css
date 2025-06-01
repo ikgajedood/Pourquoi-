@@ -47,9 +47,14 @@ h5 {
   padding: 12px 24px;
   font-size: 18px;
   background-image: url("logo/Tiktok.jpg");
-    background-size: cover;
-    background-position: center -25px;
+    background-size: 300px;
+    background-position: center;
   color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -63,8 +68,14 @@ h5 {
   padding: 12px 24px;
   font-size: 18px;
   background-image: url("logo/Snapchat.png");
-    background-size: cover;
-  color: rgb(0, 0, 0);
+    background-size: 390px;
+    background-position: center;
+  color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
   border: none;
   border-radius: 30px;
   cursor: pointer;
