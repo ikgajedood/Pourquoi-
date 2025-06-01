@@ -40,8 +40,8 @@ h5 {
   display: none;
   margin-top: 10px;
   font-weight: bold;
-}
 
+}
 #boutonsnap, #boutontiktok, {
   padding: 12px 24px;
   font-size: 18px;
@@ -115,5 +115,5 @@ h5 {
   padding: 12px 20px;
   display: inline-block;
   background-color: #d3d3d3
-  font-family: Comic Sans MS, cursive, sans-serif
+  font-family : Comic Sans MS, cursive, sans-serif
 }
