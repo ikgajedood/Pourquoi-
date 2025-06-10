@@ -112,5 +112,6 @@ function showPhoto(i) {
 prev.onclick = () => showPhoto(index - 1);
 next.onclick = () => showPhoto(index + 1);
 
-// Défilement automatique toutes les 3 secondes
+
+
 setInterval(() => showPhoto(index + 1), 6000);
