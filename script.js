@@ -112,4 +112,6 @@ function showPhoto(i) {
 prev.onclick = () => showPhoto(index - 1);
 next.onclick = () => showPhoto(index + 1);
 
+
+
 setInterval(() => showPhoto(index + 1), 6000);
