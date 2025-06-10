@@ -74,7 +74,7 @@ function creerCoeur() {
     }
   }
 
-  // Gestion du volume avec la barre
+
   volumeControl.addEventListener("input", () => {
     musique.volume = volumeControl.value;
   });
@@ -85,7 +85,7 @@ const photos = [
   "images/file_000000001bc46246bc7ba6d28638c696.png",
   "images/leydxleyley1.png",
   "images/leydfe.jpg"
-  // Ajoute ici le nom de tes images
+
 ];
 let index = 0;
 const img = document.getElementById('carousel-img');
@@ -111,7 +111,5 @@ function showPhoto(i) {
 // Flèches
 prev.onclick = () => showPhoto(index - 1);
 next.onclick = () => showPhoto(index + 1);
-
-
 
 setInterval(() => showPhoto(index + 1), 6000);
