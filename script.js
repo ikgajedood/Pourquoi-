@@ -89,12 +89,23 @@ const photos = [
 ];
 let index = 0;
 const img = document.getElementById('carousel-img');
+img.src = photos[0];
+const imgNext = document.getElementById('carousel-img-next');
 const prev = document.getElementById('prev');
 const next = document.getElementById('next');
 
 function showPhoto(i) {
-  index = (i + photos.length) % photos.length;
-  img.src = photos[index];
+  const nextIndex = (i + photos.length) % photos.length;
+  imgNext.src = photos[nextIndex];
+  imgNext.style.transition = "opacity 0.5s";
+  imgNext.style.opacity = 0;
+  void imgNext.offsetWidth;
+  imgNext.style.opacity = 1;
+  setTimeout(() => {
+    img.src = photos[nextIndex];
+    imgNext.style.opacity = 0;
+    index = nextIndex;
+  }, 500);
 }
 
 // Flèches
@@ -102,4 +113,4 @@ prev.onclick = () => showPhoto(index - 1);
 next.onclick = () => showPhoto(index + 1);
 
 // Défilement automatique toutes les 3 secondes
-setInterval(() => showPhoto(index + 1), 3000);
+setInterval(() => showPhoto(index + 1), 6000);
