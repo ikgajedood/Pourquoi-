@@ -145,11 +145,12 @@ input[type="range"] {
 }
 
 
-/* Carrousel */
 #carousel {
   position: relative;
-  width: 540px;
-  height: 625px;
+  width: 90vw;           /* 90% de la largeur de l'écran */
+  max-width: 540px;      /* Limite la taille max sur grand écran */
+  height: 100vw;          /* Hauteur relative à la largeur de l'écran */
+  max-height: 625px;     /* Limite la hauteur max */
   margin: 30px auto;
   border-radius: 12px;
   box-shadow: 0 30px 160px rgba(255, 255, 255, 0.15);
@@ -163,12 +164,13 @@ input[type="range"] {
   object-fit: cover;
   border-radius: 12px;
   transition: opacity 0.5s;
+  display: block;
 }
 
 #carousel button {
   position: absolute;
   top: 50%;
-  transform: translateY(-90%);
+  transform: translateY(-50%);
   background: rgba(255, 166, 166, 0.8);
   border: none;
   font-size: 2em;
