@@ -47,7 +47,11 @@ font-family: Comic Sans MS;
 
 #boutonanim
 {
-  padding: 12px 24px;
+  background-image: url(logo/coeur.svg) ;
+  padding: 25px 50px;
+  background-size: 45px;
+  background-position: center;
+  background-repeat: no-repeat;
   font-size: 18px;
   background-color: #d6336c;
   color: white;
@@ -108,6 +112,11 @@ font-family: Comic Sans MS;
   cursor: pointer;
 }
 
+
+input[type="range"] {
+  width: 235px;
+  accent-color: #d61056;
+}
 
 #muteBtn {
   font-size: 1em;

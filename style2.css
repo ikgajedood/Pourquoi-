@@ -121,16 +121,21 @@ h5 {
   cursor: pointer;
 }
 
+input[type="range"] {
+  width: 235px;
+  accent-color: #717171;
+}
+
 #muteBtn {
   font-size: 1em;
   font-weight: bold;
   margin: 5px 0;
-  color: #000000;
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 12px;
   padding: 12px 20px;
   display: inline-block;
-  background-color: #d3d3d3;
+  background-color: #000000;
 }
 
 #boutonpage1
