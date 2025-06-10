@@ -143,3 +143,53 @@ input[type="range"] {
   background-color: #fad9e6;
   font-family: Comic Sans MS, cursive, sans-serif
 }
+
+
+/* Carrousel */
+#carousel {
+  position: relative;
+  width: 540px;
+  height: 625px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 30px 160px rgba(255, 255, 255, 0.15);
+  background: #fff;
+  overflow: hidden;
+}
+
+#carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: opacity 0.5s;
+}
+
+#carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  background: rgba(255, 166, 166, 0.8);
+  border: none;
+  font-size: 2em;
+  color: #d61056;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  z-index: 2;
+}
+
+#carousel button:hover {
+  background: #b61db3;
+  color: #de1aa6;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}

@@ -80,3 +80,26 @@ function creerCoeur() {
   });
 
 
+
+const photos = [
+  "images/file_000000001bc46246bc7ba6d28638c696.png",
+  "images/leydxleyley1.png",
+  "images/leydfe.jpg"
+  // Ajoute ici le nom de tes images
+];
+let index = 0;
+const img = document.getElementById('carousel-img');
+const prev = document.getElementById('prev');
+const next = document.getElementById('next');
+
+function showPhoto(i) {
+  index = (i + photos.length) % photos.length;
+  img.src = photos[index];
+}
+
+// Flèches
+prev.onclick = () => showPhoto(index - 1);
+next.onclick = () => showPhoto(index + 1);
+
+// Défilement automatique toutes les 3 secondes
+setInterval(() => showPhoto(index + 1), 3000);
