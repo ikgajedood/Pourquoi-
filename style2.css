@@ -107,6 +107,14 @@ h5 {
   font-family: Comic Sans MS, cursive, sans-serif
 }
 
+.bouton-block {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 15px;
+}
+
+
 #texteSecret {
   display: none;
   font-weight: bold;
