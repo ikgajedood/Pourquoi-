@@ -15,8 +15,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 3000);
   }
 
+    function afficher06() {
+    const texte = document.getElementById("afficherbouton06");
+    texte.style.display = "block";
+    setTimeout(() => {
+      texte.style.display = "none";
+    }, 3000);
+  }
+
   window.affichersnap = affichersnap;
   window.affichertiktok = affichertiktok;
+  window.afficher06 = afficher06;
 
   const dateCible = new Date("2025-06-01T23:00:00").getTime();
   const countdownEl = document.getElementById("countdown");
