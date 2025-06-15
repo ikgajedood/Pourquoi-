@@ -1,0 +1,45 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  opacity: 0.7;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #ffffff;
+  background-image: url("images/fondleydanime.png");
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  background-repeat: 
+  repeat;
+}
+
+#boutonpage1, #boutonpage2
+{  
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #008afb;
+  border: 2px solid #3563b9;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #7fadc4;
+  font-family : Comic Sans MS, cursive, sans-serif
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #d3d3d3;
+    text-align: center;
+}
+
+.centre-ligne {
+  text-align: center;
+}
