@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aleyna</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="icon" href="images/icon_site.svg"/>
+
+
+</head>
+<body>
+ 
+  <div id="landing">
+    <h1>Appuie pour entrer</h1>
+  </div>
+
+  <div id="siteContent" style="display: none;">
+    <audio id="musique" src="son/sonsite.mp3" loop></audio>
+
+<button id="muteBtn" onclick="muteMusique()">🔇 Couper la musique</button>
+
+<br />
+
+<label for="volumeControl"></label>
+<input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+
+
+  </div>
+
+
+  <br />
+  <img src="Photoroom-20250303_014854.png" width="200" height="125" alt="Aleyna Photo 1" />
+
+   <br />
+  <!-- Compteur jours et heures -->
+  <div id="compteur">Calcul en cours...</div>
+
+  <button id="boutonanim"></button>
+  <div id="animationOverlay"></div>
+
+
+
+  <h1 class="titre_principal">POURQUOI ALEYNA EST LA MEILLEURE DES COPINES ?</h1>
+  <h2>Bonjour et bienvenue à tous,</h2>
+  <h2>À toi <span class="police"><span class="special">Leyley</span></span> ;)</h2>
+
+  <p><span class="police">Aujourd'hui, beaucoup de gens ont des copines, des femmes peut-être, tous les hommes rêvent de la femme parfaite.</span></p>
+  <p>Eh bien, laissez-moi vous expliquer pourquoi j’ai la meilleure.</p>
+
+  <h1 class="titre_principal">LISTE DE POURQUOI C'EST LA MEILLEURE :</h1>
+  <ol>
+    <li><span class="special">Elle</span> me fait rire</li>
+    <li><span class="special">Elle</span> est très, mais alors, très jolie</li>
+    <li>Avec <span class="special">elle</span>, je dors bien (quasiment tout le temps)</li>
+    <li><span class="special">Elle</span> est autiste (on y reviendra)</li>
+    <li><span class="special">Elle</span> est mature (en général)</li>
+    <li><span class="special">Elle</span> est toute <span class="special">mims</span> </li>
+    <li>Je vais bientôt la voir (ez)</li>
+    <li><span class="special">Elle</span> m’a dit qu’elle n’a pas peur de mettre sa vie entre mes mains sur une moto ou un scoot (fais gaffe mdrr)</li>
+    <li>Je la veux comme <span class="special">femme</span> (ça n'a plus rien à voir, mais az)</li>
+    <li>Regardez comme on serait beaux <span class="special">ensemble</span> :</li>
+  </ol>
+
+  <br />
+<button id="boutonpage2" onclick="location='index2.html'">Page 2</button>
+<button id="boutonpage3" onclick="location='index3.html'">Page 3</button>
+
+  <br />
+
+  <div id="carousel">
+     <img id="carousel-img" src="images/chargementleyd.png">
+    <img id="carousel-img-next">
+    <button id="prev"></button>
+    <button id="next"></button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
