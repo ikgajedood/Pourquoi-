@@ -30,14 +30,15 @@ body {
 h1 {
   font-size: 1.5em;
   font-weight: bold;
-  margin: 20px 0;
-  color: #000000;
-  border: 2px solid #ffffff;
+  margin: 0px 0;
+  color: #008afb;
+  border: 2px solid #3563b9;
   border-radius: 12px;
-  padding: 12px 20px;
+  padding: 5px 50px;
   display: inline-block;
-  background-color: #d3d3d3;
+  background-color: #7fadc4;
     text-align: center;
+    letter-spacing: 10px;
 }
 
 .centre-ligne {
