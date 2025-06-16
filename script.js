@@ -34,8 +34,13 @@ function creerCoeur() {
       const heures = Math.floor((diff / (1000 * 60 * 60)) % 24);
 
       document.getElementById('compteur').textContent =
-        jours + " jours et " + heures + " heures passés ensemble";
+        100 + " jours et " + 0 + " heures passés ensemble";
     }
+
+/*
+          document.getElementById('compteur').textContent =
+        jours + " jours et " + heures + " heures passés ensemble";
+*/
 
     setInterval(updateCompteur, 1000 * 60 * 5); // mise à jour toutes les 5 minutes
     updateCompteur(); // mise à jour au chargements
