@@ -14,7 +14,7 @@ border: 2px solid #eb14ff;
 }
 
 html, body, img {
-  filter: grayscale(1) brightness(0.3);
+  filter: grayscale(1) brightness(0.6);
 }
 
 body
@@ -28,12 +28,12 @@ font-family: Comic Sans MS;
   font-size: 1.5em;
   font-weight: bold;
   margin: 20px 0;
-  color: #d61056;
+  color: #ffffff;
   border: 2px solid #ff0059;
   border-radius: 12px;
   padding: 12px 20px;
   display: inline-block;
-  background-color: #fad9e6;
+  background-color: #181818;
 }
 
 .titre_principal {
