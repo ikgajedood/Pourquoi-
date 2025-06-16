@@ -9,6 +9,20 @@
 </head>
 <body>
   
+  <div id="landing">
+    <h1>Appuie pour entrer</h1>
+  </div>
+
+  <div id="siteContent" style="display: none;">
+    <audio id="musique" src="son/sonnostalgique.mp3" loop></audio>
+
+<button id="muteBtn" onclick="muteMusique()">🔇 Couper la musique</button>
+
+<br />
+
+<label for="volumeControl"></label>
+<input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+
     <div class="centre-ligne"><h1>Souvenirs</h1></div> 
 
 
@@ -64,6 +78,6 @@
     <button id="boutonpage1" onclick="location='index.html'"></button>
 
 
-
+<script src="script3.js"></script>
 </body>
 </html>
