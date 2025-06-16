@@ -172,14 +172,20 @@ input[type="range"] {
 {  
   font-size: 1.5em;
   font-weight: bold;
-  display: block;
-  margin: auto;
-  color: #000000;
+  color: #ffffff;
   border: 2px solid #ffffff;
   border-radius: 12px;
   padding: 12px 20px;
-  background-color: #d3d3d3;
-  font-family : Comic Sans MS, cursive, sans-serif
+  display: block;
+  background-image:url(logo/Menu.png) ;
+  background-size: 17vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000000;
+  font-family : Comic Sans MS, cursive, sans-serif;
+  margin: auto;
+  width: 100%;
+  height: 7vw;
 }
 
 #texteSecret 
