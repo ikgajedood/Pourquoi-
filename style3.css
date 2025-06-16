@@ -1,5 +1,5 @@
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic", "Comic Sans MS", cursive, sans-serif;
   font-size: 1em;
   font-weight: bold;
   color: #ffffff;
@@ -9,6 +9,12 @@ body {
 background-position: -110px center;
   background-repeat: 
   repeat;
+}
+
+@font-face {
+  font-family: 'Comic';
+  src: url('police/Comic Sans MS.woff') format('woff');
+  font-display: swap;
 }
 
 #boutonpage1, #boutonpage2
