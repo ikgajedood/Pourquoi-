@@ -168,16 +168,16 @@ input[type="range"] {
   background-color: #000000;
 }
 
-#boutonpage1, #boutonpage3
+#boutonpage1
 {  
   font-size: 1.5em;
   font-weight: bold;
-  margin: 20px 0;
+  display: block;
+  margin: auto;
   color: #000000;
   border: 2px solid #ffffff;
   border-radius: 12px;
   padding: 12px 20px;
-  display: inline-block;
   background-color: #d3d3d3;
   font-family : Comic Sans MS, cursive, sans-serif
 }
