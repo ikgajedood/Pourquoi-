@@ -1,6 +1,4 @@
-html, body, img {
-filter: invert(1) grayscale();
-}
+
 
 body {
     background-image: url("images/leydclassic.jpg");
@@ -23,7 +21,8 @@ body {
   display: inline-block;
   background-image: url(900w-TRWFt1z_Oz4.png);
     background-size: cover;
-  font-family: Comic Sans MS, cursive, sans-serif
+  font-family: Comic Sans MS, cursive, sans-serif;
+  filter: invert(1) grayscale(1);
 }
 
 #boutonpage2
@@ -42,7 +41,8 @@ body {
 background-image: url(images/fondleyd.png);
 background-size: cover;
 background-position: center 20px;
-  font-family : Comic Sans MS, cursive, sans-serif
+  font-family : Comic Sans MS, cursive, sans-serif;
+  filter: invert(1) grayscale(1);
 }
 
 #boutonpage3
@@ -58,7 +58,28 @@ background-position: center 20px;
   padding: 12px 20px;
   display: inline-block;
   background-image: url(images/fondleydanime.png);
-  background-size: cover;
-background-position: center;
-  font-family : Comic Sans MS, cursive, sans-serif
+  background-size: contain;
+  background-position: center;
+  font-family : Comic Sans MS, cursive, sans-serif;
+  filter: invert(1) grayscale(1);
+}
+
+#boutonpage4
+{
+    float: right;
+      width: 45vw;
+ height: 30vh;
+  font-size: 1.em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #ffffff;
+  border: 10px solid #ffffff;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+background-image: url(images/leydsansdina.png);
+background-size: cover;
+background-position: center -20px;
+  font-family : Comic Sans MS, cursive, sans-serif;
+  filter: none;
 }
