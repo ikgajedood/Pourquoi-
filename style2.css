@@ -1,4 +1,4 @@
-html {
+html, body, img {
   filter: invert(1) brightness(0.4);
 }
 
