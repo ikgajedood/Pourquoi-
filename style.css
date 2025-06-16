@@ -1,4 +1,6 @@
-
+html, body {
+filter: invert(1) grayscale();
+}
 
 body {
     background-image: url("images/leydclassic.jpg");
